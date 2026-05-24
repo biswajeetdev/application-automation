@@ -1,0 +1,7 @@
+profile.yaml
+*.pdf
+cover_letter.txt
+*.png
+__pycache__/
+.venv/
+venv/

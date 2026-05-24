@@ -1,5 +1,9 @@
 # Application Automation
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat&logo=yaml&logoColor=white)
+
 Playwright-based CLI that fills job application forms automatically — review before submitting.
 
 Currently supports **Greenhouse ATS** (used by Rubrik, Stripe, Notion, and 10,000+ companies).

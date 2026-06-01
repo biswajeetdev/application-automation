@@ -151,6 +151,9 @@ def main():
     parser.add_argument("--screenshot", default="form_filled.png", help="Screenshot output path")
     args = parser.parse_args()
 
+    if not args.url.startswith(("https://", "http://")):
+        sys.exit("Error: URL must start with https:// or http://")
+
     profile = load_profile(args.profile)
     asyncio.run(run(args.url, profile, args.submit, args.screenshot))
 
